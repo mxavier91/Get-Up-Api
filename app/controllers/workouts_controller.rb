@@ -3,7 +3,7 @@ class WorkoutsController < OpenReadController
 
   # GET /workouts
   def index
-    @workouts = current_user.workouts.all
+    @workouts = Workout.all
 
     render json: @workouts
   end
