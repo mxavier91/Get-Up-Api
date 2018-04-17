@@ -1,9 +1,9 @@
-class WorkoutsController < OpenReadController
+class WorkoutsController < ProtectedController
   before_action :set_workout, only: [:show, :update, :destroy]
 
   # GET /workouts
   def index
-    @workouts = Workout.all
+    @workouts = current_user.workouts.all
 
     render json: @workouts
   end
