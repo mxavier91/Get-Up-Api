@@ -9,7 +9,8 @@ curl "http://localhost:4741/workouts" \
     "workout": {
       "exercise": "'"${EXERCISE}"'",
       "reps": "'"${REPS}"'",
-      "sets": "'"${SETS}"'"
+      "sets": "'"${SETS}"'",
+      "weight": "'"${WEIGHT}"'"
     }
   }'
 
