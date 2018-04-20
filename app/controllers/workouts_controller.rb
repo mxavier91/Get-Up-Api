@@ -47,6 +47,6 @@ class WorkoutsController < ProtectedController
 
     # Only allow a trusted parameter "white list" through.
     def workout_params
-      params.require(:workout).permit(:exercise, :sets, :reps, :weight, :user_id)
+      params.require(:workout).permit(:exercise, :sets, :reps, :user_id)
     end
 end
