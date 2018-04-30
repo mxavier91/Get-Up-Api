@@ -13,7 +13,7 @@ curl "${API}${URL_PATH}" \
       "reps": "'"${REPS}"'",
       "sets": "'"${SETS}"'",
       "weight": "'"${WEIGHT}"'",
-      "comment": "'"${COMMENT}"'"
+      "comments": "'"${COMMENTS}"'"
     }
   }'
 

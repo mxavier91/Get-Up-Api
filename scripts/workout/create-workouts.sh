@@ -11,7 +11,7 @@ curl "http://localhost:4741/workouts" \
       "reps": "'"${REPS}"'",
       "sets": "'"${SETS}"'",
       "weight": "'"${WEIGHT}"'",
-      "comment": "'"${COMMENT}"'"
+      "comments": "'"${COMMENTS}"'"
     }
   }'
 
