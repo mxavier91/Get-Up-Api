@@ -12,7 +12,8 @@ curl "${API}${URL_PATH}" \
       "exercise": "'"${EXERCISE}"'",
       "reps": "'"${REPS}"'",
       "sets": "'"${SETS}"'",
-      "weight": "'"${WEIGHT}"'"
+      "weight": "'"${WEIGHT}"'",
+      "comment": "'"${COMMENT}"'"
     }
   }'
 
